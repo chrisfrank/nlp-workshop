@@ -15,7 +15,7 @@ substituting `python3` throughout.
 2. Install the required libraries.
 
     If you're familiar with `venv`, feel free to create a virtual environment and
-    source it first. If not, just forget I ever mentioned it.
+    source it first. If not, forget I mentioned it.
 
     ```
     pip install -r requirements.txt
@@ -26,7 +26,7 @@ substituting `python3` throughout.
     ```
     python -m tokenizer -h
     ```
-    If this command doesn't produce a helpful message, let's troubleshoot.
+    If this command produces an error message, ask for help!
 
 
 ## Tokenizing
