@@ -9,24 +9,24 @@ substituting `python3` throughout.
 
 ## Setup
 1. Clone this repository:
-  ```
-  git clone https://github.com/chrisfrank/nlp-workshop.git
-  ```
+    ```
+    git clone https://github.com/chrisfrank/nlp-workshop.git
+    ```
 2. Install the required libraries.
 
-  If you're familiar with `venv`, feel free to create a virtual environment and
-  source it first. If not, just forget I ever mentioned it.
+    If you're familiar with `venv`, feel free to create a virtual environment and
+    source it first. If not, just forget I ever mentioned it.
 
-  ```
-  pip install -r requirements.txt
-  ```
+    ```
+    pip install -r requirements.txt
+    ```
 
 
 3. Make sure it works:
-  ```
-  python -m tokenizer -h
-  ```
-  If this command doesn't produce a helpful message, let's troubleshoot.
+    ```
+    python -m tokenizer -h
+    ```
+    If this command doesn't produce a helpful message, let's troubleshoot.
 
 
 ## Tokenizing
@@ -48,12 +48,12 @@ python -m stemmer "Let's try to stem this text and see what happens."
 python -m lemmatizer "Let's try to lemmatize this text and see what happens."
 ```
 
-## Searching:
+## Searching
 ```
 python -m search "brexit"
 ```
 
-## Writing a better search:
+## Writing a better search
 ```
 python -m bettersearch "brexit"
 ```
